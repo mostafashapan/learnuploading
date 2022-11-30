@@ -1,0 +1,26 @@
+body{
+    background-color: pink;
+}
+input[type="text" i] [type="number" i] {
+    width: 800px;
+    height: 50px;
+
+}
+.logi{
+    border-spacing: 15px;
+    width: 31%;
+    height: 238px;
+    background-color:blanchedalmond;
+   
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+  
+    
+    text-shadow: 10%;
+    border-bottom:55px solid rgb(20, 18, 18);
+    border-right:5px solid rgb(27, 16, 16);
+    text-align: center;
+    padding-top: 20%;
+    border-radius: 10px;
+  }

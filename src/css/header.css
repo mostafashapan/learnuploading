@@ -1,0 +1,166 @@
+  
+    ul {
+        background-color: black;
+        list-style-type: none;
+        padding-top: 5px;
+        width: 100%;
+        font-family: serif;
+        overflow: hidden;
+        margin-top: -1%;
+        padding: 14px;
+
+    }
+
+
+    .mainlist {
+        color: white;
+        display: inline-block;
+        padding: 10px;
+        width: 10%;
+    }
+
+    .mainlist:hover {
+        color: red;
+        cursor: pointer;
+
+    }
+
+    ol {
+        display: none;
+        list-style-type: none;
+
+    }
+
+    ol li {
+        color: white;
+        display: block;
+        text-align: center;
+
+    }
+
+    .droplist {
+        background-color: black;
+        position: absolute;
+    }
+
+    ol li:hover {
+        color: red;
+    }
+
+    .x {
+
+        display: none
+    }
+
+    .addproduct {
+
+        background-color: #30577e;
+        ;
+        display: grid;
+        justify-content: center;
+    }
+
+
+    .all {
+        padding-left: 271px;
+        margin-top: -429px;
+    }
+
+    #Category_Card {
+
+        width: 255px;
+        height: 600px;
+        left: 165px;
+        top: 930px;
+        overflow: visible;
+    }
+
+
+
+    .sidebar {
+    z-index: 1;
+    top: 0;
+    background: #30577e;
+    margin-top: -18px;
+    padding-top: 36px;
+    left: -22px;
+    width: 216px;
+    height: calc(100% - 9%);
+    transition: 0.5s;
+    transition-property: left;
+    overflow-y: auto;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    margin-left: -19%;
+}
+
+    .profile_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sidebar .profile_info h4 {
+        color: #ccc;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .sidebar a {
+        color: #fff;
+        display: block;
+        width: 100%;
+        line-height: 60px;
+        text-decoration: none;
+        padding-left: 40px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        transition-property: background;
+    }
+
+    .sidebar a:hover {
+        background: khaki
+    }
+
+    .sidebar i {
+        padding-right: 10px;
+    }
+
+
+    .slider {
+
+        margin: auto;
+        display: table;
+    }
+
+    .twits {
+        margin: auto;
+        display: table;
+
+    }
+
+    .buttons {
+        margin: auto;
+        display: table;
+    }
+
+
+    .cart {
+
+        display: grid;
+    }
+
+    .products {
+
+        display: inline-grid;
+
+
+    }
+    .setmiddle{
+
+
+        position: relative;
+        margin-top: -58%;
+    }
